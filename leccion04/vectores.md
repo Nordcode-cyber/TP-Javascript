@@ -23,3 +23,38 @@ let fruits = ["Apple", "Orange", "Plum"];
                                       ];
 
 ->console.log( matrix[1][1] ); // 5, el elemento central
+->console.table(arr);
+┌─────────┬──────────┐ 
+│ (index) │  Values  │ 
+├─────────┼──────────┤ 
+│    0    │ 'Apple'  │ 
+│    1    │ 'Orange' │ 
+│    2    │  'Plum'  │ 
+└─────────┴──────────┘ 
+
+                                                       Arrays de objetos
+var apps = {
+    mapas: "google",
+    musica: "youtube" ,
+    radio: "ask.fm ",
+    correr: "runkeeper" ,
+    reloj: "TimeRoot" ,
+    agenda: "Calendar" ,
+    caminar: "poodmeter"
+}            
+->console.table(apps);
+┌─────────┬─────────────┐ 
+│ (index) │   Values    │ 
+├─────────┼─────────────┤ 
+│  mapas  │  'google'   │ 
+│ musica  │  'youtube'  │ 
+│  radio  │  'ask.fm '  │ 
+│ correr  │ 'runkeeper' │ 
+│  reloj  │ 'TimeRoot'  │ 
+│ agenda  │ 'Calendar'  │ 
+│ caminar │ 'poodmeter' │ 
+└─────────┴─────────────┘ 
+
+                                                       
+                                                       
+
