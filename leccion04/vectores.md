@@ -24,10 +24,10 @@ let fruits = ["Apple", "Orange", "Plum"];
 
 ->console.log( matrix[1][1] ); // 5, el elemento central
 ->console.table(arr);
-┌─────────┬──────────┐ 
-│ (index) │  Values  │ 
-├─────────┼──────────┤ 
-│    0    │ 'Apple'  │ 
+                                                          ┌─────────┬──────────┐ 
+                                                          │ (index) │  Values  │ 
+                                                          ├─────────┼──────────┤ 
+                                                          │    0    │ 'Apple'  │ 
 │    1    │ 'Orange' │ 
 │    2    │  'Plum'  │ 
 └─────────┴──────────┘ 
