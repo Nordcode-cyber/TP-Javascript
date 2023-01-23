@@ -58,5 +58,16 @@ Existe una estructura llamada Array (llamada en español  o matriz/vector) para 
                                                          │ caminar │ 'poodmeter' │  
                                                          └─────────┴─────────────┘ 
                                                                     
-                                                    
+                                                    var os = ['Unix', 'IOs', 'Gnu/Linux', 'Free BSD', 'Beos']; //vector de String
+                                                    ->console.table(os);
+                                                     
+                                                        ┌─────────┬─────────────┐ 
+                                                        │ (index) │   Values    │ 
+                                                        ├─────────┼─────────────┤ 
+                                                        │    0    │   'Unix'    │ 
+                                                        │    1    │    'IOs'    │ 
+                                                        │    2    │ 'Gnu/Linux' │ 
+                                                        │    3    │ 'Free BSD'  │ 
+                                                        │    4    │   'Beos'    │ 
+                                                        └─────────┴─────────────┘ 
 
