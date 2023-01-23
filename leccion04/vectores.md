@@ -33,28 +33,27 @@ let fruits = ["Apple", "Orange", "Plum"];
                                                     └─────────┴──────────┘ 
 
                                                        Arrays de objetos
-var apps = {
-    mapas: "google",
-    musica: "youtube" ,
-    radio: "ask.fm ",
-    correr: "runkeeper" ,
-    reloj: "TimeRoot" ,
-    agenda: "Calendar" ,
-    caminar: "poodmeter"
-}            
-->console.table(apps);
-┌─────────┬─────────────┐ 
-│ (index) │   Values    │ 
-├─────────┼─────────────┤ 
-│  mapas  │  'google'   │ 
-│ musica  │  'youtube'  │ 
-│  radio  │  'ask.fm '  │ 
-│ correr  │ 'runkeeper' │ 
-│  reloj  │ 'TimeRoot'  │ 
-│ agenda  │ 'Calendar'  │ 
-│ caminar │ 'poodmeter' │ 
-└─────────┴─────────────┘ 
-
-                                                       
-                                                       
+                                                         var apps = {
+                                                         mapas: "google",
+                                                         musica: "youtube" ,
+                                                         radio: "ask.fm ",
+                                                         correr: "runkeeper" ,
+                                                         reloj: "TimeRoot" ,
+                                                         agenda: "Calendar" ,
+                                                         caminar: "poodmeter"
+                                                         }      
+                                                         ->console.table(apps);
+                                                         ┌─────────┬─────────────┐  
+                                                         │ (index) │ Values      │  
+                                                         ├─────────┼─────────────┤  
+                                                         │ mapas   │ 'google'    │  
+                                                         │ musica  │ 'youtube'   │  
+                                                         │ radio   │ 'ask.fm '   │  
+                                                         │ correr  │ 'runkeeper' │  
+                                                         │ reloj   │ 'TimeRoot'  │  
+                                                         │  agenda │ 'Calendar'  │  
+                                                         │ caminar │ 'poodmeter' │  
+                                                         └─────────┴─────────────┘ 
+                                                                    
+                                                    
 
