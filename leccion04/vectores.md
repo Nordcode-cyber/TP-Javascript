@@ -9,11 +9,14 @@ Existe una estructura llamada Array (llamada en español  o matriz/vector) para 
 
                           Hay dos sintaxis para crear un array vacío:
 
-let arr = new Array();
-let arr = [];
-let fruits = ["Apple", "Orange", "Plum"];
+                                   let arr = new Array();
+                                       let arr = [];
+                                   let fruits = ["Apple", "Orange", "Plum"];
 
-                          ->console.log( fruits[0] ); // Apple
+                         let arr = new Array(); 
+                         let arr = []; 
+                         let fruits = ["Apple", "Orange", "Plum"];
+                         ->console.log( fruits[0] ); // Apple
                           ->console.log( fruits[1] ); // Orange
                           ->console.log( fruits[2] ); // Plum
                                 let matrix = [
@@ -22,12 +25,12 @@ let fruits = ["Apple", "Orange", "Plum"];
                                     [7, 8, 9]
                                       ];
 
-->console.log( matrix[1][1] ); // 5, el elemento central
-->console.table(arr);
+                                     ->console.log( matrix[1][1] ); // 5, el elemento central
+                                                    ->console.table(arr);
                                                     ┌─────────┬──────────┐ 
                                                     │ (index) │  Values  │ 
                                                     ├─────────┼──────────┤ 
-                                                    │    0    │ 'Apple'  │ 
+                              subindice(arr(0);-->  │    0    │ 'Apple'  │ 
                                                     │    1    │ 'Orange' │ 
                                                     │    2    │  'Plum'  │ 
                                                     └─────────┴──────────┘ 
