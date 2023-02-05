@@ -1,0 +1,25 @@
+//operadores relacionales
+let a = 3, b = 2, c = "3";
+let d ='2', e = 5, f = 3,g =1;
+let z = a < b;
+console.log(z);
+z = a <= b;
+console.log(z);
+z = a > b;
+console.log(z);
+z = a >= b;
+console.log(z);
+z = d<=c;
+console.log(z);
+z =  a>=b;
+console.log(z);
+z = e <=f;
+console.log(z);
+z = c < d;
+console.log(z);
+z = f <=a;
+console.log(z);
+z = g <=b;
+console.log(z);
+z = b > e;
+console.log(z);
