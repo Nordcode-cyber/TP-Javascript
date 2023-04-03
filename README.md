@@ -1,2 +1,2 @@
 # TP-Javascript
-ejerciciios javascript
+ejercicios javascript
