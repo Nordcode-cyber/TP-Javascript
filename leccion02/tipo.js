@@ -1,7 +1,7 @@
 /*
 Ejemplos de 
 tipos de datos 
-en JavaScript
+en JavaScript sin tipar
 */
 //Tipo de dato string
 var nombre = "Carlos";
