@@ -1,0 +1,42 @@
+head {
+    background-color:rgb(38, 38, 42);
+
+}    
+body {
+    background-color:rgb(8, 2, 7);
+}
+p {
+    color:rgb(13, 121, 58);
+    text-align: center;
+    text-overflow: clip;
+    font-size: 21px;
+}   
+demo {
+    color:rgb(99, 7, 7);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:justify;
+    text-shadow: 12cm;
+}
+shaw {
+    color: rgb(40, 105, 169);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-rendering: geometricPrecision;
+    border-radius: 5px;
+}
+h1 {
+    color:rgb(49, 224, 224);
+    text-decoration:dashed;
+    text-decoration-color:lightpink;
+    text-align: center;
+}
+h2 {
+    color: rgb(25, 235, 43);
+    text-align: center;
+}
+
+h4 {
+    color: rgb(85, 135, 215);
+    text-transform: capitalize;
+    text-align:center;
+}

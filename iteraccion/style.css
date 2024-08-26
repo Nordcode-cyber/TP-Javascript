@@ -1,0 +1,36 @@
+
+    head {
+        background-color:rgb(6, 6, 8);
+    
+    }    
+    body {
+        background-color:rgb(52, 213, 101);
+    }
+    p {
+        color:rgb(23, 235, 55);
+        text-align: center;
+        text-overflow: clip;
+        font-size: 21px;
+    }   
+    demo {
+        color:chocolate;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    h1 {
+        color:cornflowerblue;
+        text-decoration:dashed;
+        text-decoration-color:lightpink;
+        text-align: center;
+    }
+    h3 {
+        color:lightseagreen;
+        text-decoration: solid;
+        text-align: center;
+        font-size: 21px;
+        background-color: darkorange;
+    }
+    h4 {
+        color: rgb(35, 17, 74);
+        text-transform: capitalize;
+        text-align:center;
+    }
