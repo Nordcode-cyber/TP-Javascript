@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <!--link al archivo de la hoja de CSS-->
+        <meta charset=UTF-8>
+</head>    
+<body>
+    <h1>JavaScript funciones Flecha</h1>
+    <h3>La directiva debe estar en la parte superior de un script o al comienzo de una función.
+
+        Sin la directiva "use strict" todo sigue funcionando, pero algunas características se comportan de la manera antigua y “compatible”. Generalmente preferimos el comportamiento moderno.
+        
+        Algunas características modernas del lenguaje (como las clases que estudiaremos en el futuro) activan el modo estricto implícitamente.</h3>
+    <h4 id="h41">Funcion <mark>let func =(arg1, arg2, .., argN)=> expresion</mark> </h4>    
+    <h4 id="h42">La Funcion Flecha, acepta los parametros <mark>arg1, arg2..argn, luego evalua la expresion
+    </mark>Funciones de flecha multilínea
+    Las funciones de flecha que estuvimos viendo eran muy simples. Toman los parámetros a la izquierda de =>, los evalúan y devuelven la expresión del lado derecho.
+    
+    A veces necesitamos una función más compleja, con múltiples expresiones o sentencias. En ese caso debemos encerrarlos entre llaves. La diferencia principal es 
+    que las llaves necesitan usar un return para devolver un valor (tal como lo hacen las funciones comunes).</h4> 
+    <h5 id ="h51">Resumen
+        Las funciones de flecha son útiles para acciones simples, especialmente las de una sola línea. 
+        Vienen en dos variantes:
+        <mark>llaves: (...args) => expression – el lado derecho es una expresión: la función la evalúa y devuelve el resultado. Pueden omitirse los paréntesis 
+        si solo hay un argumento, por ejemplo n => n*2.</mark>
+        <mark>Con llaves: (...args) => { body } – las llaves nos permiten escribir varias declaraciones dentro de la función, pero necesitamos un return explícito 
+        para devolver algo. </mark></h5>     
+    
+    <p id="demo"></p>
+ </body>
+</html>
