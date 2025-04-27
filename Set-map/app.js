@@ -1,4 +1,4 @@
 /* ejercicios
 * 
 */
-console.log('zona de problemas con Set/Map')
+console.log('zona de problemas con Map')

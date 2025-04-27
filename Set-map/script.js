@@ -28,6 +28,11 @@ const set3 = new Set([4,5,7,8,9,11,14,16]);
 console.log(set3.delete(4))//true
 console.log(set3.delete(6));//false
 console.table(set3);
+console.log('probando propiedad .clear')
+const set4 = new Set([4,5,7,8,9,11,14,16]);
+console.log(set4)
+set4.clear();
+console.log(set4)
 
 
 
