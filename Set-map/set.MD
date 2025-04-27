@@ -18,4 +18,13 @@ por lo tanto, puedes tener la seguridad que un Set nunca tendrá el mismo elemen
   Boolean  |        .delete(element)   | 	Elimina el element del conjunto. Devuelve si lo eliminó correctamente.
   -------  |         .clear()	       |    Vacía el conjunto completo.
   ## Propiedad size
-  
+  la propiedad size funciona de forma muy similar al .length de los arrays
+  ``` const set1 = new Set([5,6,7,8,9,11,13]);```
+  ``` set1;```
+  ```console.log(set1.size)//7```
+
+  ## Propiedad has
+  la propiedad has devuelve true o false si un elemento existe  dentro de un conjunto 
+  ``` const set2 = new Set([1,2,3,4,5,7]);```
+  ``` set2;```
+  ``` console.log(set2.has(3));//true```
