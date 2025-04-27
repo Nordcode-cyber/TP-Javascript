@@ -28,3 +28,10 @@ por lo tanto, puedes tener la seguridad que un Set nunca tendrá el mismo elemen
   ``` const set2 = new Set([1,2,3,4,5,7]);```
   ``` set2;```
   ``` console.log(set2.has(3));//true```
+ ## Propiedad delete
+ Si necesitamos borrar algún elemento del conjunto, podemos utilizar el método .delete(). Al igual que el anterior, 
+ devuelve un booleano.Si el borrado se realizó con éxito, devolverá true, 
+ si no pudo realizarse (no existe el elemento), devolverá false.
+  ``` const set3 = new Set([4,5,7,8,9,11,14,16]);```
+    ``` set3.delete(3);```//true
+    ``` set3.delete(6);```//false

@@ -23,6 +23,12 @@ console.log(set1.has(4))//false
 console.log(set1.has(8))//true
 console.log(set1.has(12))//false
 console.log(set1.has(13))//true
+console.log('probando propiedad .delte')
+const set3 = new Set([4,5,7,8,9,11,14,16]);
+console.log(set3.delete(4))//true
+console.log(set3.delete(6));//false
+console.table(set3);
+
 
 
 
