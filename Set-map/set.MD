@@ -17,3 +17,5 @@ por lo tanto, puedes tener la seguridad que un Set nunca tendrá el mismo elemen
   Boolean  |         .has(element)     |	Comprueba si element ya existe en el conjunto. Devuelve si existe.
   Boolean  |        .delete(element)   | 	Elimina el element del conjunto. Devuelve si lo eliminó correctamente.
   -------  |         .clear()	       |    Vacía el conjunto completo.
+  ## Propiedad size
+  
