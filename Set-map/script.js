@@ -33,6 +33,12 @@ const set4 = new Set([4,5,7,8,9,11,14,16]);
 console.log(set4)
 set4.clear();
 console.log(set4)
+const set5 =new Set(['v','r','g']);
+console.log(set5)
+console.log(set5.size)
+console.log(set5.has('s'))
+console.log(set5.has('r'))
+console.table(set5)
 
 
 
