@@ -2,7 +2,7 @@ miFuncion(4, 2);
 
 //Declaración de la función
 function miFuncion(a, b){
-    console.log("la Suma de los : " + (a + b));   
+    console.log("la Suma de los parametros de la funcion : " + (a + b));   
 }
 //Llamando a la función puede ser antes o despues de declarar la funcion
 miFuncion(2, 3);
