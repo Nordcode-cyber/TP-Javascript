@@ -15,3 +15,13 @@ set.add("pepe");
 
 set;            // Set({5, "A"})
 console.log(set);
+const set1 = new Set([8,5,6,7,8]);
+set1;
+console.log(set1.size)//4
+
+
+
+
+
+
+
