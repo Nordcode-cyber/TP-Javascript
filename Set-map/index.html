@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "script.js" ></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <div class="dropdown" data-bs-theme="dark"></div>
@@ -27,13 +28,18 @@
         tr:nth-child(even) {
           background-color: #0e699e;
         }
+        h5{
+            font-family:monospace;
+            text-decoration: dotted;
+            text-decoration-color: #0e699e;
+        }
         </style>
 </head>
 <header>
 
 </header>
 <body>
-    <script src = "script.js" ></script>
+    
     <h1>Trabajando en javascript con Set-Map</h1>
     <h2>Que son los Set</h2>
     <h3>Los Set en Javascript son estructuras de datos nativas muy interesantes para representar conjuntos de datos. 
@@ -76,6 +82,25 @@
             <td>Vacia el conjunto completo</td>
         </tr>
        </table>
+       <h3>Implementación</h3>
+       <h5>Propiedad size(), la propiedad size funciona de forma muy similar al .length de los arrays</h5>
+      <pre> <code>
+        const set1 = new Set([5,6,7,8,9,11,13]);
+        set1;
+        console.log(set1.size)
+      </code></pre>
+      <h5>Propiedad has(), la propiedad has devuelve true o false si un elemento existe dentro de un conjunto</h5>
+     <pre><code>
+        const set2 = new Set([1,2,3,4,5,7]);
+        set2;
+        console.log(set2.has(3));//true
+     </code></pre>
+     <h5>Propiedad delete(), la propiedad delete funciona si necesitamos borrar algún elemento del conjunto.</h5>
+     <pre><code>
+        const set2 = new Set([1,2,3,4,5,7]);
+        set2;
+        console.log(set2.has(3));//true
+     </code></pre>
 
         
     

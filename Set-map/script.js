@@ -1,6 +1,7 @@
 /*no permite repetir datos
  *
  */
+console.log('%c 🎉 ¡Si puedes imaginar, lo puedes programar! 🚀', 'font-size: 22px; color: purple; font-weight: bold;');
 const set = new Set();
 set.add(5);
 set.add("A");
