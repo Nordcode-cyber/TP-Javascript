@@ -7,7 +7,7 @@ typeof, condicional,iteracion, etc.
                                        Web donde podras estudiar javascript.
 https://lenguajejs.com/javascript/
 https://es.javascript.info/
-### Solucion a los errores de Nodejs
+## Solucion a los errores de Nodejs
 npm : No se puede cargar el archivo C:\nvm4w\nodejs\npm.ps1 porque la ejecución de scripts está deshabilitada en este sistema", 
 indica claramente un problema con la política de ejecución de scripts de PowerShell.
 PowerShell tiene una característica de seguridad que controla la ejecución de scripts (.ps1). 
