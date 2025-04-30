@@ -1,4 +1,5 @@
 //convertir string a Number
+console.log('%c 🤬🤬⚒️ Javascript soporta tipos!!1 sin importar si los declaras, cabrones!! 💾🤬🤬', 'font-size: 22px; color: purple; font-weight: bold;');
 let miNumero = "18";
  console.log(typeof miNumero);
   let edad = Number(miNumero);

@@ -11,6 +11,7 @@ en JavaScript sin tipar
 //var numero = 1000;
 //console.log(numero);
 //Tipo de dato objetos
+console.log('%c 🤬🤬⚒️ Javascript soporta tipos!!1 sin importar si los declaras, cabrones!! 💾🤬🤬', 'font-size: 22px; color: purple; font-weight: bold;');
 var destino = {
     nombre : "Juan",
     apellido : "Perez",
