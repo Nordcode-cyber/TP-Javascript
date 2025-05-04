@@ -30,3 +30,5 @@ ________________________________________________________________________________
 | Boolean         |.delete(key)   | elimina el elemento con la clave key del mapa, devuelve si, lo |
 |                                    eliminó correctamente.                                        |
 |-----------------|.clear()       |vacia el mapa completamente                                     |
+____________________________________________________________________________________________________
+
