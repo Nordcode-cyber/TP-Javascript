@@ -1,13 +1,30 @@
-let map = new Map();
-
-map.set('1', 'string');   // un string como clave
-map.set(1, 'number');     // un número como clave
-map.set(true, 'boolean'); // un booleano como clave
-
-// ¿recuerda el objeto regular? convertiría las claves a string.
-// Map mantiene el tipo de dato en las claves, por lo que estas dos son diferentes:
-console.log( map.get(1)   ); // 'num1'
-console.log( map.get('1') ); // 'str1'
-console.log(map.get(true))
-
-console.log( map.size ); // 3
+const map = new Map();
+console.log(map.size)
+console.log(map)
+const map1 = new Map([[1, "camioneta"], [2, "barco"]]);
+console.log(map1.size)    // 2
+console.log(map1)
+const map2 = new Map([[1, "carta"], [2, "fax"], [3, "mail"],[4, "telefono"]]);
+console.log(map2.size)  
+console.log(map2)
+const map3 = new Map([[1, "c"], [2, "c++"], [3, "Java"],[4, "C#"],[5, "Rust"]]);
+console.log(typeof map3)
+console.log(map3.size)  
+console.log(map3)
+map.set(1, "uno")
+map1.set(3, "avion")
+map2.set(5, "whatsapp")
+map3.set(6, "Carbon")
+map.set(3, "dos")
+map1.set(4, "camion")
+map2.set(6, "telegram")
+map3.set(7, "kotlin")
+console.log(map.size)
+console.log(map1.size)
+console.log(map2.size)
+console.log(map3.size)
+console.log(map)
+console.log(map1)
+console.log(map2)
+console.log(map3)
+console.table(map3)
