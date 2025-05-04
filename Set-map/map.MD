@@ -26,4 +26,7 @@ ________________________________________________________________________________
 | Number          |.size          | Propiedad devuelve el numero de elementos que tiene el mapa    |
 | Map             |.set(key,value)| Establece o modifica la clave key con el valor value. Muta     |
 | Boolean         |.has(key)      | Comprueba si key ya existe en el mapa y devuelve si existe o no|
-| Object          |.get(key)      
+| Object          |.get(key)      | Obtiene el valor de la clave key del map                       |
+| Boolean         |.delete(key)   | elimina el elemento con la clave key del mapa, devuelve si, lo |
+|                                    eliminó correctamente.                                        |
+|-----------------|.clear()       |vacia el mapa completamente                                     |
