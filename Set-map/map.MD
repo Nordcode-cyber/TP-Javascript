@@ -14,7 +14,6 @@ que en nuestro tercer caso tiene estas combinaciones:
 >Clave Number 1 => Valor String 'uno'
 >Clave Number 2 => Valor String 'dos'
 >Clave Number 3 => Valor String 'tres'
-
 ### Tipos de datos Map
 Los tipos de dato Map son muy similares a los Objetos de Javascript, ya que estos últimos se pueden usar, 
 como estructuras de diccionario mediante pares clave-valor. Sin embargo, los Object tienen algunas diferencias 
@@ -31,4 +30,8 @@ ________________________________________________________________________________
 |                                    eliminó correctamente.                                        |
 |-----------------|.clear()       |vacia el mapa completamente                                     |
 ____________________________________________________________________________________________________
+
+
+
+
 
