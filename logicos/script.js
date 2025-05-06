@@ -1,20 +1,19 @@
-alert(true || true); // true (verdadero)
-alert(false && true); //false (falso)
-alert(!false && true); //true (verdadero)
-alert(true || false && true || !false);//true(verdadero)
-if (1 || 0) { // Funciona como if( true || false )
-    alert("valor verdadero!");
-  }
-if(1 && 1) {
-    alert("valor verdadero!");
-}  
+console.log(true || true); // true (verdadero)
+console.log(false && true); //false (falso)
+console.log(!false && true); //true (verdadero)
+console.log(true || false && true || !false);//true(verdadero)
+let peso =24;
+if(peso <2500 || peso >500){
+    console.log("no admitimos transporte con ese peso")
+}
+
 let nota = -2;
 if (nota < 0 || nota >10){
-    alert("dato erroneo");
+    console.log("dato erroneo");
 }
 let hora = 11;
 if (hora <16 || hora >21){
-     alert("Negocio cerrado");
+     console.log("Negocio cerrado");
 } else if(hora >15 && hora <21 ) {
-    alert("Estamos atendiendo");
+    console.log("Estamos atendiendo");
 } 
