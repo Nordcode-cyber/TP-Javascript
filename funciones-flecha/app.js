@@ -1,3 +1,4 @@
+'use strict';
 //Declaración de la función
 function miFuncion(a, b){
     console.log(arguments.length);
@@ -30,7 +31,7 @@ console.log(resultado);
  *    return expression;
  *}; 
  */
- 'use strict';
+
  /*Algunas tienen paréntesis alrededor de los parámetros mientras que otras no.  
  Algunas utilizan corchetes y la palabra clave return, otras no. 
  Una incluso se extiende en múltiples líneas mientras que las otras 
@@ -100,4 +101,4 @@ console.log(resultado);
     let result = a + b;
     return result; // si usamos llaves, entonces necesitamos un "return" explícito
   };
- 
+console.log( sumas(9, 21) ); // 3
