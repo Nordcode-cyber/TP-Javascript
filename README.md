@@ -2,8 +2,26 @@
 Hoy en día, JavaScript tiene una posición única como el lenguaje más extendido y adoptado de navegador, 
 con una integración completa con HTML y CSS.
 Este Trabajo practico reune las diferentes temas de javascript:
-funciones basicas, funciones flechas, algoritmos y bucles, expresion de funciones,conversion, operadores,objetos,
-typeof, condicional,iteracion, etc.
+### *funciones basicas. 
+### *funciones flechas.
+### *expresion de funciones. 
+### *bucles. 
+### *string. 
+### *comparaciones. 
+### *condicional.
+### *operadores aritmeticos. 
+### *operadores logicos. 
+### *operador funcion flecha 
+### *operador ternario. 
+### *operador typeof.
+### *clases y objetos, 
+### *conversion de tipos. 
+### *Set-map. 
+### *wake-set. 
+### *wake-map.
+### *promesas 
+### *JSON 
+### *DOM y etc.
                                        Web donde podras estudiar javascript.
 https://lenguajejs.com/javascript/
 https://es.javascript.info/
