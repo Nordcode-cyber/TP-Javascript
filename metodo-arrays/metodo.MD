@@ -24,3 +24,8 @@ Por lo tanto, necesitamos utilizar métodos especiales.
 ## metodo arr.splice
 funciona como una navaja suiza para arrays. Puede hacer todo: insertar, remover y remplazar elementos.
 La sintaxis es:
+```arr.splice(start[, deleteCount, elem1, ..., elemN])```
+```let arr = ['yo','estudio','javascript'];```
+```arr.splice(1, 1);```
+```console.log(arr)```
+
