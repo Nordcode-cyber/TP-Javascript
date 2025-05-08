@@ -1,20 +1,26 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "script.js" ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="dropdown" data-bs-theme="dark"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <body>
 
 <h2>JavaScript Math.random()</h2>
 
-<p>Cada vez que se pulsa el boton, getRndInteger(min, max) devuelve un numero aleatorio entre 0 y 9 (ambos incluidos)</p>
+<h3>Necesitamos hacer un “mapeo” de todos los valores del intervalo 0…1 a valores desde min a max.
 
-
-<p id="demo"></p>
-
-<script>
-function getRndInteger(min, max) {
-  return Math.floor(Math.random() * (max - min)) + min;
-}
-</script>
+  Esto puede hacerse en dos pasos:
+  
+  Si multiplicamos el número aleatorio 0…1 por max-min, entonces el intervalo de valores posibles va de 0..1 a 0..max-min.
+  Ahora si sumamos min, el intervalo posible se vuelve desde min a max.</h3>
 
 </body>
+<small>web no reponsive</small>  
 </html>
