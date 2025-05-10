@@ -25,6 +25,18 @@ let arr4=[1,2,3,4,5]
 console.table(arr4)
 arr4.splice(4, 0, 6, 7, 8, 9)
 console.table(arr4)
+console.log('copia el array[principio],[final]')
+let arr5 = ["t", "e", "s", "t"];
+console.log(arr5)
+console.log( arr5.slice(1, 3) ); // e,s (copia desde 1 hasta 3)
 
+console.log( arr5.slice(0) ); // s,t (copia desde -2 hasta el final)
+let arr6=['yo','estudio','typescript','para','saber','Angular'];
+console.table(arr6)
+console.log('tamaño del array arr6: '+arr6.length)
+console.log('funcion ForEach javascript')
+arr6.forEach(function(arr6, index) {
+  console.log('indice: '+ index+ " " + 'valor: '+ arr6);// ... hacer algo con un elemento
+});
 
 

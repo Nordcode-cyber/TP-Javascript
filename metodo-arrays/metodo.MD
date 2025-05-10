@@ -28,4 +28,11 @@ La sintaxis es:
 ```let arr = ['yo','estudio','javascript'];```
 ```arr.splice(1, 1);```
 ```console.log(arr)```
+### devolver elementos removidos
+```let arr3=['yo','estudio','java']```
+```console.log(arr3)```
+```arr3.splice(2, 0,'para','desarrollar','software' )```
+```let removed = arr2.splice(3, 2)```
+```console.log(removed)//[ 'yo', 'estudio', 'para', 'desarrollar', 'software', 'java' ]```
+
 
