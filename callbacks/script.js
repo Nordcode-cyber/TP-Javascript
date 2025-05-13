@@ -5,6 +5,7 @@ setTimeout(mensaje, 1000);
 setTimeout(() => { //function arrow
 console.log("Este mensaje se muestra después de 3 segundos");
 }, 3000);
+
 function solicitudServidor(consulta, callback){
   setTimeout(function(){
     var respuesta = consulta + "tracking server...";
@@ -29,3 +30,6 @@ function obtenerPeticion(peticion){
 }
 arr1 = ['nombre: abel |'+'apellido: gomez |'+'edad: 55'+'|domicilio: |'+'calle: | Mercaderes 2345 |'+'Loc: Moron'+'|']
 solicitudDatos(arr1, obtenerPeticion); 
+setTimeout(() => { //function arrow
+console.log("ya es hora de unas buenas chelitas 🍺🍺🍺🍺🍺 ");
+}, 17000);
