@@ -31,5 +31,5 @@ function obtenerPeticion(peticion){
 arr1 = ['nombre: abel |'+'apellido: gomez |'+'edad: 55'+'|domicilio: |'+'calle: | Mercaderes 2345 |'+'Loc: Moron'+'|']
 solicitudDatos(arr1, obtenerPeticion); 
 setTimeout(() => { //function arrow
-console.log("ya es hora de unas buenas chelitas 🍺🍺🍺🍺🍺 ");
+console.log("ya es hora de unas buenas birritas 🍺🍺🍺🍺🍺 ");
 }, 17000);

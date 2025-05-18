@@ -5,7 +5,12 @@ var nota = 7;
 console.log("He realizado mi examen. Mi resultado es el siguiente:");
 
 // Operador ternario: (condición ? verdadero : falso)
-var calificacion = nota < 5 ? "suspendido" : "aprobado";
+var calificacion = nota < 5 ? "desaprobado" : "aprobado";
 
 console.log("Estoy", calificacion);
-
+*en vez de:
+if (nota< 5){
+    console.log('desaprobado')
+}else{
+    console.log('aprobado')
+}

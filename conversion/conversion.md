@@ -15,7 +15,7 @@ También podemos llamar a la función String(value) para convertir un valor a st
 let value = true;
 ->console.log(typeof value); // boolean
 
-value = String(value); // ahora value es el string "true"
+value = ToString(value); // ahora value es el string "true"
 ->console.log(typeof value); // string
 La conversión a string es bastante obvia. El boolean false se convierte en "false", null en "null", etc.
 
