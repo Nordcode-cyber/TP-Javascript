@@ -3,12 +3,10 @@ let n1 = 13;
 let n2 =4;
 var nota = 1;
  // Operador ternario: (condición ? verdadero : falso)
-var calificacion = nota < 5 ? "suspendido" : "aprobado";
+var calificacion = nota < 5 ? "desaprobado" : "aprobado";
 console.log("Estoy", calificacion);
 console.log("He realizado mi examen. Mi resultado es el siguiente:");
 // Operador ternario: (condición ? verdadero : falso)
-var calificacion = nota < 5 ? "suspendido" : "aprobado";
-console.log("Estoy", calificacion);
 let edad=23;
  let resultado = (edad >= 18)? "Puede votar" : "Muy joven para votar";//operador ternario
  console.log( resultado );
