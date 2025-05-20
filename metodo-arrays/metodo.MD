@@ -1,6 +1,5 @@
 ### Métodos de arrays
-Los arrays (también llamados arreglos o matrices) cuentan con muchos métodos. Para hacer las cosas más sencillas, en este capítulo los separamos en grupos.
-
+Los arrays (también llamados vectores o matrices) cuentan con muchos métodos. Para hacer las cosas más sencillas, en este capítulo los separamos en grupos.
 Agregar/remover ítems
 Ya conocemos algunos métodos que agregan o extraen elementos del inicio o final de un array:
 
